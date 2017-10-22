@@ -12,6 +12,9 @@ $ add
 $ commit
   Sobe os arquivos modificados para o repositorio
 
+  > -a
+    Comita todos os arquivos no stage
+
   > -m "_mensagem"
     Adiciona "mensagem" ao commit que aparecerá no log
 
@@ -44,3 +47,29 @@ $ diff
 
   > --name-only
     Mostra somente o nome do arquivo que foi modificado
+
+$ reset _POINTER _arquivo
+  Reseta o pointer passado para a última versão do arquivo
+
+  > --soft _hash
+    Reseta os commits até o da hash passada e volta os arquivos para o stage
+
+  > --mixed _hash
+    Reseta os commits até o da hash passada e volta os arquivos para unstagged
+
+  > --hard _hash
+    Apaga completamente os commits até o da hash passada
+
+$ checkout _arquivo
+  Volta o arquivo unstagged pro estado anterior
+
+$ remote
+  Comandos do repositório remoto
+
+  > add origin _path
+  Adiciona o repositorio remoto de origem no link passado no path
+
+  > -v
+  Mostra os repositórios remotos com seus endereços
+
+  
