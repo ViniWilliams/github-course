@@ -13,7 +13,7 @@ $ commit
   Sobe os arquivos modificados para o repositorio
 
   > -a
-    Comita todos os arquivos no stage
+    Comita todos os arquivos passando direto pelo stage
 
   > -m "_mensagem"
     Adiciona "mensagem" ao commit que aparecerá no log
