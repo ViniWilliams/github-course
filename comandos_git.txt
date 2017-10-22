@@ -72,4 +72,8 @@ $ remote
   > -v
   Mostra os repositórios remotos com seus endereços
 
-  
+$ push _destino _fonte
+  Sobe os commits para o repositorio remoto destino a partir do branch fonte
+
+  > -u
+  Para trackear o repositorio e enviar somente com push da próxima vez
