@@ -1,0 +1,46 @@
+Comandos mais importantes e úteis do Git para fácil acesso:
+
+$ init
+  Inicializa o repositório git
+
+$ add
+  Adiciona arquivos modificados ao stage
+
+  > nome_do_arquivo.extensão
+    Adiciona um arquivo especifico ao stage
+
+$ commit
+  Sobe os arquivos modificados para o repositorio
+
+  > -m "_mensagem"
+    Adiciona "mensagem" ao commit que aparecerá no log
+
+$ status
+  Mostra o status de todos os arquivos no repositorio
+
+$ log
+  Mostra todos os commits realizados no repositorio
+
+  > --decorate
+    Mostra outras informações no log, como os branches
+
+  > --author="autor"
+    Lista apenas os commits do "autor"
+
+  > --graph
+    Mostra de forma gráfica os commits e os branches
+
+$ shortlog
+  Lista os autores e os commits feitos por eles
+
+  > -sn
+    Lista os autores e o número de commits feitos por eles
+
+$ show _hash
+  Mostra o que aconteceu no commit que tem a hash passada
+
+$ diff
+  Mostra as diferenças entre a versão anterior e atual de todos arquivos modificados
+
+  > --name-only
+    Mostra somente o nome do arquivo que foi modificado
