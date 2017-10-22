@@ -63,6 +63,12 @@ $ reset _POINTER _arquivo
 $ checkout _arquivo
   Volta o arquivo unstagged pro estado anterior
 
+  > -b "nome do branch"
+      Cria um novo branch
+
+$ checkout _branch
+  Muda para o branch passado
+
 $ remote
   Comandos do repositório remoto
 
@@ -77,3 +83,16 @@ $ push _destino _fonte
 
   > -u
   Para trackear o repositorio e enviar somente com push da próxima vez
+
+$ branch
+  Mostra todos os branchs e qual você está no momento
+
+  > -D "nome do branch"
+    Apaga o branch passado
+
+$ merge _branch
+  Cria um novo commit juntando o branch passado com o master
+
+$ rebase _branch
+  Une o branch passado com o master de forma linear, tornando o último commit do branch
+  o mesmo que do master
