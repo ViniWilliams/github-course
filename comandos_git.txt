@@ -96,3 +96,9 @@ $ merge _branch
 $ rebase _branch
   Une o branch passado com o master de forma linear, tornando o último commit do branch
   o mesmo que do master
+
+$ stash
+  Guarda em WIP as mudanças que estão sendo implementadas
+
+  > apply
+    Resgata os arquivos do stash
