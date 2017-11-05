@@ -102,3 +102,7 @@ $ stash
 
   > apply
     Resgata os arquivos do stash
+
+$ revert _hash
+  Reverte para antes do commit passado na hash, mas não apaga o commit
+  
